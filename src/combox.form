@@ -8,11 +8,6 @@
     <properties/>
     <border type="none"/>
     <children>
-      <vspacer id="70d25">
-        <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
       <component id="154f3" class="javax.swing.JLabel" binding="titulo">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
@@ -32,6 +27,14 @@
             <item value="verde"/>
             <item value="amarillo"/>
           </model>
+        </properties>
+      </component>
+      <component id="e0321" class="javax.swing.JLabel" binding="resultado">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="resultado"/>
         </properties>
       </component>
     </children>
